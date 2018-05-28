@@ -1,0 +1,228 @@
+﻿<Controls:MetroWindow x:Class="FinancialInvestmentAdvisor.Advise"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinancialInvestmentAdvisor"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Title="Financial Investment Advisor" Height="450" Width="530">
+    <Grid>
+        <StackPanel Orientation="Vertical" x:Name="spCapture">
+            <Separator />
+            <Label Content="Financial Investment Advisor" HorizontalAlignment="Center" FontWeight="Bold" FontSize="12" />
+            <Separator />
+            <Grid Margin="20,0,20,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="210" />
+                    <ColumnDefinition Width="250" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Label Content="Name: " Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <TextBox x:Name="tbName" MaxLength="100" Grid.Row="0" Width="250" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                <Label Content="Status of existing Checking Account: " Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <ComboBox SelectedIndex="0" x:Name="cbExistingAcctStatus" Width="250" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                <Label Content="Credit History: " Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <ComboBox SelectedIndex="0" x:Name="cbCreditHistory" Width="250" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                <Label Content="Savings Account/Bonds: " Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <ComboBox SelectedIndex="0" SelectedValuePath="Key" DisplayMemberPath="Value" x:Name="cbSavingsAcct" Width="250" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                <Label Content="Present Employemnt Since: " Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <ComboBox SelectedIndex="0" SelectedValuePath="Key" DisplayMemberPath="Value" x:Name="cbPresentEmplmntSince" Width="250" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                <Label Content="Personal Status And Sex: " Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <ComboBox SelectedIndex="0" SelectedValuePath="Key" DisplayMemberPath="Value" x:Name="cbPersonalStatus" Width="250" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                <Label Content="Property: " Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <ComboBox SelectedIndex="0" SelectedValuePath="Key" DisplayMemberPath="Value" x:Name="cbProperty" Width="250" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                <Label Content="Age: " Grid.Row="7" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <TextBox x:Name="tbAge" MaxLength="3" Grid.Row="7" Width="250" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                <Label Content="Housing: " Grid.Row="8" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <ComboBox SelectedIndex="0" SelectedValuePath="Key" DisplayMemberPath="Value" x:Name="cbHousing" Width="250" Grid.Row="8" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                <Label Content="Job: " Grid.Row="9" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <ComboBox SelectedIndex="0" SelectedValuePath="Key" DisplayMemberPath="Value" x:Name="cbJob" Width="250" Grid.Row="9" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                <Label Content="No of Dependents: " Grid.Row="10" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <TextBox x:Name="tbDependents" MaxLength="3" Grid.Row="10" Width="250" Grid.Column="10" HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                <Button x:Name="btnAdvise" Content="Advise" Grid.Row="11" Grid.Column="0" Width="100" Height="25" HorizontalAlignment="Right" Margin="0,0,20,0" VerticalAlignment="Center" Click="btnAdvise_Click" />
+                <Button x:Name="btnReset" Content="Reset" Grid.Row="11" Grid.Column="1" Width="100" Height="25" HorizontalAlignment="Left" Margin="20,0,0,0" VerticalAlignment="Center" Click="btnReset_Click" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" x:Name="spInvestmentHigh" Visibility="Collapsed">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="Credit Score: 1 &amp; Advisor Score: 5" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <Label Grid.Row="1" Content="Hurray! Your Investments Options:" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <TextBlock Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    Public Provident Fund - 100,000
+                    <LineBreak />
+                    Mutual Fund (SIP) - 100,000
+                    <LineBreak />
+                    Equity Shares - 50,000
+                    <LineBreak />
+                    Real Estate Investment- N/A
+                    <LineBreak />
+                    Gold ETF - 25,000
+                    <LineBreak />
+                    Initial Public Offerings - 25,000
+                </TextBlock>
+                <Button x:Name="btnBackHigh" Content="Back" Grid.Row="3" Width="100" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnBack_Click" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" x:Name="spInvestmentLow" Visibility="Collapsed">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="Credit Score: 2 &amp; Advisor Score: 6" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <Label Grid.Row="1" Content="Hurray! Your Investments Options:" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <TextBlock Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    Public Provident Fund - 50,000
+                    <LineBreak />
+                    Mutual Fund (SIP) - 100,000
+                    <LineBreak />
+                    Equity Shares - 30,000
+                    <LineBreak />
+                    Real Estate Investment- N/A
+                    <LineBreak />
+                    Gold ETF - 25,000
+                    <LineBreak />
+                    Initial Public Offerings - 25,000
+                </TextBlock>
+                <Button x:Name="btnBackLow" Content="Back" Grid.Row="3" Width="100" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnBack_Click" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" x:Name="spInvestmentHigh10LakhPlus" Visibility="Collapsed">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="Credit Score: 1 &amp; Advisor Score: 1" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <Label Grid.Row="1" Content="Hurray! Your Investments Options:" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <TextBlock Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    Public Provident Fund - 200,000
+                    <LineBreak />
+                    Mutual Fund (SIP) - 250,000
+                    <LineBreak />
+                    Equity Shares - 200,000
+                    <LineBreak />
+                    Real Estate Investment- 500,000
+                    <LineBreak />
+                    Gold ETF - 150,000
+                    <LineBreak />
+                    Initial Public Offerings - 100,000
+                </TextBlock>
+                <Button x:Name="btnBackHigh10LakhPlus" Content="Back" Grid.Row="3" Width="100" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnBack_Click" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" x:Name="spInvestmentHigh5LakhPlus" Visibility="Collapsed">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="Credit Score: 1 &amp; Advisor Score: 2" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <Label Grid.Row="1" Content="Hurray! Your Investments Options:" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <TextBlock Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    Public Provident Fund - 100,000
+                    <LineBreak />
+                    Mutual Fund (SIP) - 150,000
+                    <LineBreak />
+                    Equity Shares - 100,000
+                    <LineBreak />
+                    Real Estate Investment- 300,000
+                    <LineBreak />
+                    Gold ETF - 50,000
+                    <LineBreak />
+                    Initial Public Offerings - 50,000
+                </TextBlock>
+                <Button x:Name="btnBackHigh5LakhPlus" Content="Back" Grid.Row="3" Width="100" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnBack_Click" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" x:Name="spInvestmentHigh1LakhPlus" Visibility="Collapsed">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="Credit Score: 1 &amp; Advisor Score: 3" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <Label Grid.Row="1" Content="Hurray! Your Investments Options:" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <TextBlock Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    Public Provident Fund - 100,000
+                    <LineBreak />
+                    Mutual Fund (SIP) - 150,000
+                    <LineBreak />
+                    Equity Shares - 100,000
+                    <LineBreak />
+                    Real Estate Investment- 100,000
+                    <LineBreak />
+                    Gold ETF - 25,000
+                    <LineBreak />
+                    Initial Public Offerings - 25,000
+                </TextBlock>
+                <Button x:Name="btnBackHigh1LakhPlus" Content="Back" Grid.Row="3" Width="100" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnBack_Click" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" x:Name="spInvestmentHigh1LakhMinus" Visibility="Collapsed">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="Credit Score: 1 &amp; Advisor Score: 4" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <Label Grid.Row="1" Content="Hurray! Your Investments Options:" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="15" />
+                <TextBlock Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    Public Provident Fund - 25,000
+                    <LineBreak />
+                    Mutual Fund (SIP) - 25,000
+                    <LineBreak />
+                    Equity Shares - 25,000
+                    <LineBreak />
+                    Real Estate Investment- 0
+                    <LineBreak />
+                    Gold ETF - 10,000
+                    <LineBreak />
+                    Initial Public Offerings - 15,000
+                </TextBlock>
+                <Button x:Name="btnBackHigh1LakhMinus" Content="Back" Grid.Row="3" Width="100" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnBack_Click" />
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Controls:MetroWindow>

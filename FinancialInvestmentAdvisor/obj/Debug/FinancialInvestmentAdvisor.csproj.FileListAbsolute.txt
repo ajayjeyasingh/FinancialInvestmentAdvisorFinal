@@ -1,0 +1,59 @@
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\FinancialInvestmentAdvisor.exe.config
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\FinancialInvestmentAdvisor.exe
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\FinancialInvestmentAdvisor.pdb
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\Newtonsoft.Json.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\System.Net.Http.Formatting.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\Newtonsoft.Json.xml
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\Advise.g.cs
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\App.g.cs
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor_MarkupCompile.cache
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor_MarkupCompile.lref
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\Advise.baml
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.g.resources
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.Properties.Resources.resources
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.csproj.GenerateResource.cache
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.csproj.CoreCompileInputs.cache
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.csproj.CopyComplete
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.exe
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.pdb
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\System.Net.Http.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\System.Net.Http.Extensions.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\bin\Debug\System.Net.Http.Primitives.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.csprojAssemblyReference.cache
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\FinancialInvestmentAdvisor.exe.config
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\FinancialInvestmentAdvisor.exe
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\FinancialInvestmentAdvisor.pdb
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\System.Net.Http.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.csprojResolveAssemblyReference.cache
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\Advise.g.cs
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\App.g.cs
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor_MarkupCompile.cache
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor_MarkupCompile.lref
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\Advise.baml
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.g.resources
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.Properties.Resources.resources
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.csproj.GenerateResource.cache
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.csproj.CoreCompileInputs.cache
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.csproj.CopyComplete
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.exe
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\FinancialInvestmentAdvisor.pdb
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\ControlzEx.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\MahApps.Metro.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\ControlzEx.pdb
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\bin\Debug\MahApps.Metro.xml
+C:\Users\Ajay\Downloads\Compressed\FinancialInvestmentAdvisor-master\FinancialInvestmentAdvisor\obj\Debug\App.baml

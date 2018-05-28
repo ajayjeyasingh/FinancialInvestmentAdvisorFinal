@@ -1,0 +1,17 @@
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\GetCreditScore.dll.config
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\GetCreditScore.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\GetCreditScore.pdb
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\Newtonsoft.Json.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\System.Net.Http.Formatting.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\Newtonsoft.Json.xml
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\obj\Debug\GetCreditScore.csproj.CoreCompileInputs.cache
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\obj\Debug\GetCreditScore.csproj.CopyComplete
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\obj\Debug\GetCreditScore.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\obj\Debug\GetCreditScore.pdb
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\System.Net.Http.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\obj\Debug\GetCreditScore.csprojAssemblyReference.cache
+D:\Users\lnc\Desktop\Hackathon 2018\FinancialInvestmentAdvisor\GetCreditScore\bin\Debug\System.Net.Http.Formatting.xml
